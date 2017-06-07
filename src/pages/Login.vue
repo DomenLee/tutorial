@@ -27,6 +27,9 @@ export default {
         Toast('账号或者密码错误')
       }
     }
+  },
+  mounted () {
+    console.log(this.$route)
   }
 }
 </script>
