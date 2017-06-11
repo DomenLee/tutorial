@@ -13,23 +13,23 @@ export default {
     // 设置viewport
     // const viewport = document.querySelector(`meta[name=viewport]`)
     // const devicePixelRatio = +window.devicePixelRatio
-    // let value
-    //
+    // let value = 0
+
     // // 判断
     // switch (devicePixelRatio) {
     //   case 1:
     //     value = 1
     //     break
-    //
+
     //   case 2:
     //     value = 0.5
     //     break
-    //
+
     //   case 3:
     //     value = 0.3333333333333333
     //     break
     // }
-    //
+
     // viewport.setAttribute(`content`, `width=device-width, initial-scale=` +
     //   value + `, maximum-scale=` +
     //   value + `, minimum-scale=` +
