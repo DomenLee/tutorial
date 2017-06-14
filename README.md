@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+vue2 + vue-router2 + vuex
+
 ## Build Setup
 
 ``` bash

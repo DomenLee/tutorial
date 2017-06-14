@@ -35,20 +35,20 @@ export default {
     //   value + `, minimum-scale=` +
     //   value + `, user-scalable=no`)
 
-    let setRootFontSize = () => {
-      let html = document.documentElement
-      let fontSize = html.clientWidth * 2 / 7.5
-      html.style.fontSize = fontSize + `px`
-    }
+    // let setRootFontSize = () => {
+    //   let html = document.documentElement
+    //   let fontSize = html.clientWidth * 2 / 7.5
+    //   html.style.fontSize = fontSize + `px`
+    // }
 
-    setRootFontSize()
+    // setRootFontSize()
 
-    // 测试时使用，上线可删除，非自适应(只支持手机端)
-    window.addEventListener(`resize`, () => {
-      setTimeout(() => {
-        setRootFontSize()
-      }, 1000)
-    }, false)
+    // // 测试时使用，上线可删除，非自适应(只支持手机端)
+    // window.addEventListener(`resize`, () => {
+    //   setTimeout(() => {
+    //     setRootFontSize()
+    //   }, 1000)
+    // }, false)
   }
 }
 </script>
@@ -59,7 +59,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 40px;
+  padding-top: .42rem;
+}
+
+html {
+  font-size: 100px;
 }
 
 body, html {
@@ -67,7 +71,10 @@ body, html {
   margin: 0;
   height: 100%;
   background-color: #e3e3e3;
-  font-size: .1rem;
+}
+
+body * {
+  box-sizing: border-box;
 }
 
 .clear:after {

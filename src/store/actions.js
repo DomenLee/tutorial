@@ -1,11 +1,7 @@
 import * as types from './mutation-types'
 
-export const getAllMessages = ({
+export const changeTitle = ({
   commit
-}) => {
-  setTimeout(() => {
-    commit(types.RECEIVE_ALL, {
-      messages
-    })
-  }, 1000)
+}, title) => {
+  commit(types.CHANG_TITLE, title)
 }
